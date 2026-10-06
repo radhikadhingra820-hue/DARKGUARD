@@ -9,51 +9,7 @@ st.set_page_config(
     layout="wide",
 )
 
-
 st.markdown(
-    """
-    <style>
-        .stApp {
-            background: #0b0f19;
-        }
-
-        .block-container {
-            max-width: 1200px;
-            padding-top: 2rem;
-            padding-bottom: 3rem;
-        }
-
-        .hero {
-            padding: 1.6rem 1.8rem;
-            border: 1px solid #26344b;
-            border-radius: 18px;
-            background: linear-gradient(135deg, #111827, #182235);
-            margin-bottom: 1.2rem;
-        }
-
-        .hero-title {
-            font-size: 2.5rem;
-            font-weight: 800;
-            letter-spacing: .06em;
-        }
-
-        .hero-subtitle {
-            color: #aab7cb;
-            font-size: 1rem;
-            margin-top: .35rem;
-        }
-
-        .small-note {
-            color: #7f8da3;
-            font-size: .83rem;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
-st.markdown(
-    """
     <div class="hero">
         <div class="hero-title">🛡️ DARKGUARD</div>
         <div class="hero-subtitle">
@@ -80,8 +36,6 @@ data = results["data"]
 accuracy = results["accuracy"]
 feature_count = results["feature_count"]
 
-
-
 a, b, c, d = st.columns(4)
 
 a.metric("Dataset", f"{len(data):,}")
@@ -92,8 +46,6 @@ d.metric("Classifier", "Logistic Regression")
 st.divider()
 
 detector, insights = st.tabs(["🔍 Detector", "📊 Model Insights"])
-
-
 
 with detector:
 
@@ -249,8 +201,6 @@ with detector:
                     "No obvious urgency, scarcity, or social-proof "
                     "phrases were found by the signal scan."
                 )
-
-# MODEL INSIGHTS TAB
 
 with insights:
 
