@@ -9,8 +9,7 @@ st.set_page_config(
     layout="wide",
 )
 
-# A small amount of CSS keeps the page clean without hiding
-# the fact that this is a Streamlit application.
+
 st.markdown(
     """
     <style>
@@ -81,7 +80,7 @@ data = results["data"]
 accuracy = results["accuracy"]
 feature_count = results["feature_count"]
 
-# Top-level project stats
+
 
 a, b, c, d = st.columns(4)
 
@@ -94,7 +93,7 @@ st.divider()
 
 detector, insights = st.tabs(["🔍 Detector", "📊 Model Insights"])
 
-# DETECTOR TAB
+
 
 with detector:
 
