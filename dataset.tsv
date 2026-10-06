@@ -497,7 +497,8 @@ page_id	text	label	Pattern Category
 318	No Thanks, I rather pay full price	1	Misdirection
 264	 View All Shoes 	0	Not Dark Pattern
 152	Someone from Airdrie & 10820 others bought this item recently.	1	Social Proof
-1330	Rachel Comey	0	Not Dark Pattern204	52 people are looking at this right now.	1	Social Proof
+1330	Rachel Comey	0	Not Dark Pattern
+204	52 people are looking at this right now.	1	Social Proof
 845	1 day 08:15:25	1	Urgency
 173	estiven in Deer Park, United States purchased PreWash™ 4 oz	1	Social Proof
 833	Delivery & Offers Terms	0	Not Dark Pattern
@@ -996,7 +997,8 @@ page_id	text	label	Pattern Category
 263	"Someone in Cashmere bought a 
 RCM Cosworth Timing Belt Kit 99-02MY EJ20/22/251 hour ago"	1	Social Proof
 337	No thanks, I don't like FREE stuff.	1	Misdirection
-1714	No thanks, I just want the item	1	Misdirection1380	ONLY 1 LEFT IN STOCK	1	Scarcity
+1714	No thanks, I just want the item	1	Misdirection
+1380	ONLY 1 LEFT IN STOCK	1	Scarcity
 227	Trending now! Added to basket 38 times today	1	Social Proof
 984	 Love the way you pay 	0	Not Dark Pattern
 1673	Homeware Trends	0	Not Dark Pattern
@@ -1495,7 +1497,8 @@ RCM Cosworth Timing Belt Kit 99-02MY EJ20/22/251 hour ago"	1	Social Proof
 527	Graphic Tanks	0	Not Dark Pattern
 1470	LOW STOCK (ONLY 10 LEFT!)	1	Scarcity
 97	JOHN in Toowoomba City, Australia purchased a Resin Tank 7 hours ago	1	Social Proof
-622	 V-neck Printed Loose Short-sleeved T-shirt 	0	Not Dark Pattern1061	Limited Time Only · Online Only	1	Urgency
+622	 V-neck Printed Loose Short-sleeved T-shirt 	0	Not Dark Pattern
+1061	Limited Time Only · Online Only	1	Urgency
 1351	 Teething Remedies 	0	Not Dark Pattern
 69	Partnerships	0	Not Dark Pattern
 638	Accord remotes	0	Not Dark Pattern
@@ -1994,7 +1997,8 @@ If you would like to receive offers from carefully selected 3rd parties, please 
 1139	Gifts By Price	0	Not Dark Pattern
 447	"No thanks! I'd rather join the """"Pay Full Price for Things"""" club."	1	Misdirection
 1736	 PopWallet+ Refine by Product Type: PopWallet+ 	0	Not Dark Pattern
-767	FootwearHome & Office	0	Not Dark Pattern841	Get 20% off Sample Doors! ×Offer Ends In 58 : 29 Use Promo Code sample20off	1	Urgency
+767	FootwearHome & Office	0	Not Dark Pattern
+841	Get 20% off Sample Doors! ×Offer Ends In 58 : 29 Use Promo Code sample20off	1	Urgency
 1693	HURRY! ONLY 11 LEFT IN STOCK.	1	Scarcity
 200	Hurry up! 22 people other than you have this product in their cart	1	Social Proof
 1590	 family 	0	Not Dark Pattern
