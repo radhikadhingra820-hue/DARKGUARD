@@ -80,7 +80,7 @@ For ML changes, contributors should report results on held-out data and include 
 ## Project Structure
 
 ```
-darkguard/
+DARKGUARD/
 ├── app.py
 ├── model.py
 ├── dataset.tsv
