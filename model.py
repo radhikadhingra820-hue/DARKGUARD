@@ -14,13 +14,11 @@ from sklearn.model_selection import train_test_split
 DATASET_PATH = Path(__file__).resolve().parent / "dataset.tsv"
 
 def clean_text(text):
-    """Basic cleaning used before TF-IDF."""
     text = str(text).lower()
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
 def load_dataset():
-    """Read the dataset and prepare the text column."""
     data = pd.read_csv(DATASET_PATH, sep="\t")
 
     if "text" not in data.columns or "label" not in data.columns:
@@ -34,7 +32,6 @@ def load_dataset():
     return data
 
 def train_model():
-    """Train the baseline TF-IDF + Logistic Regression model."""
     data = load_dataset()
 
     X = data["clean_text"]
@@ -53,8 +50,6 @@ def train_model():
         stop_words="english",
         ngram_range=(1, 2),
     )
-
-    # Learn the vocabulary from training data only.
     X_train_tfidf = vectorizer.fit_transform(X_train)
     X_test_tfidf = vectorizer.transform(X_test)
 
@@ -86,7 +81,6 @@ def train_model():
     }
 
 def predict_text(text, model, vectorizer):
-    """Predict a new text snippet."""
     cleaned = clean_text(text)
     text_tfidf = vectorizer.transform([cleaned])
 
@@ -97,10 +91,6 @@ def predict_text(text, model, vectorizer):
     return prediction, confidence, probabilities
 
 def explain_prediction(text, model, vectorizer, top_n=6):
-    """
-    Show the TF-IDF features that contributed most to the
-    Logistic Regression decision.
-    """
     cleaned = clean_text(text)
     text_tfidf = vectorizer.transform([cleaned])
 
