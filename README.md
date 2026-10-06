@@ -4,6 +4,10 @@
 
 DARKGUARD is a Streamlit machine-learning prototype that analyzes website text and predicts whether it contains a dark pattern.
 
+## Live Demo
+
+**[Launch DARKGUARD](https://darkguard-m9approgfbavpoma8h9ebg5.streamlit.app/)**
+
 ## Problem
 
 Online platforms sometimes use wording that creates artificial pressure or nudges users toward a decision. Examples include fake urgency, scarcity, and social proof.
@@ -14,7 +18,7 @@ A user pastes website text and DARKGUARD returns:
 
 - Dark Pattern / Not Dark Pattern
 - Model confidence
-- Top TF-IDF features that influenced the prediction
+- TF-IDF features that influenced the prediction
 - A separate quick scan for urgency, scarcity, and social-proof signals
 - Basic model and dataset insights
 
@@ -51,6 +55,7 @@ The prototype achieved approximately **93.4% test accuracy** on the current data
 - TF-IDF
 - Logistic Regression
 - Streamlit
+- GitHub
 
 ## Dataset
 
@@ -65,17 +70,18 @@ python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-## Contribution Areas
+## Competition Challenge
 
-Open issues are used as competition challenges. Current directions include:
+DARKGUARD provides a working baseline rather than an empty starter project. Participants improve the model or its supporting NLP components through the open GitHub Issues.
 
-- Improve baseline accuracy
-- Reduce false negatives
-- Improve short-text classification
-- Add multi-category detection
-- Improve phrase-level explanations
+Current challenge areas:
 
-For ML changes, contributors should report results on held-out data and include accuracy, precision, recall, F1-score, and a short explanation of the change.
+1. **Improve baseline accuracy**
+2. **Improve short-text detection**
+3. **Add multi-category detection**
+4. **Improve phrase-level explanation**
+
+For ML changes, contributors should use held-out evaluation data and report accuracy, precision, recall, F1-score, and a short explanation of the approach.
 
 ## Project Structure
 
@@ -93,6 +99,8 @@ DARKGUARD/
     └── test_model.py
 ```
 
-## Note
+## Notes
 
-A model prediction is an indicator produced from the training data; it is not proof of intent, deception, or harm by a website.
+- The deployed app runs the baseline model from the `main` branch.
+- A model prediction is an indicator produced from the training data; it is not proof of intent, deception, or harm by a website.
+- Competition tasks and improvement work are kept in GitHub Issues so the prototype stays focused on the working baseline.
