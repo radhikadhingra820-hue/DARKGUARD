@@ -44,12 +44,13 @@ Participants are not starting from an empty project.
 
 They receive a working baseline and improve the ML.
 
-Example challenges:
-- Improve accuracy
-- Reduce false negatives
-- Improve short-text handling
-- Add multi-category classification
-- Improve explanations
+Current GitHub challenges:
+- **Easy:** Error analysis and evaluation
+- **Medium:** Improve short and subtle text detection
+- **Medium:** Compare classifiers and improve detection
+- **Hard:** Add multi-label detection and explanations
+
+Each issue includes tasks and acceptance criteria. Difficulty labels describe expected scope, not a guaranteed completion time.
 
 ## 8. Tech Stack
 Python • Pandas • NumPy • scikit-learn • TF-IDF • Logistic Regression • Streamlit • GitHub
