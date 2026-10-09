@@ -74,14 +74,14 @@ python -m streamlit run app.py
 
 DARKGUARD provides a working baseline rather than an empty starter project. Participants improve the model or its supporting NLP components through the open GitHub Issues.
 
-Current challenge areas:
+### Open Challenges
 
-1. **Improve baseline accuracy**
-2. **Improve short-text detection**
-3. **Add multi-category detection**
-4. **Improve phrase-level explanation**
+- **Easy:** [Error analysis and evaluation](https://github.com/radhikadhingra820-hue/DARKGUARD/issues/1)
+- **Medium:** [Improve short and subtle text detection](https://github.com/radhikadhingra820-hue/DARKGUARD/issues/2)
+- **Medium:** [Compare classifiers and improve detection](https://github.com/radhikadhingra820-hue/DARKGUARD/issues/3)
+- **Hard:** [Add multi-label detection and explanations](https://github.com/radhikadhingra820-hue/DARKGUARD/issues/4)
 
-For ML changes, contributors should use held-out evaluation data and report accuracy, precision, recall, F1-score, and a short explanation of the approach.
+For ML changes, contributors should use held-out evaluation data and report accuracy, precision, recall, F1-score, and a short explanation of the approach. Difficulty labels describe the expected scope, not a guaranteed time to complete.
 
 ## Project Structure
 
